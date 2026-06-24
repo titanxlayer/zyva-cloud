@@ -35,15 +35,19 @@ ZYVA is a Lovable-style AI coding environment. Describe what you want in plain l
 
 ## AI Inference — 0G Private Computer
 
-All inference runs on **[0G Private Computer](https://pc.0g.ai)** — an OpenAI-compatible API where every request is processed inside a TEE. No bring-your-own-key required; models are managed for you.
+All inference runs on **[0G Private Computer](https://pc.0g.ai)** — an OpenAI-compatible API where every request is processed inside a TEE (Trusted Execution Environment).
 
-| Model | Context | Best for |
-|---|---|---|
-| `minimax-m3` | 1M | Multimodal, default |
-| `glm-5.1` | 207K | Long-horizon coding |
-| `qwen3.7-max` | 1M | Function calling |
-| `qwen3.6-plus` | 1M | Multilingual |
-| `deepseek-v4-pro` | 1M | Agentic coding |
+- **Private by design** — prompts and code are processed inside a TEE, isolated from the host
+- **Frontier-class LLM** — tuned for long-context, agentic coding (1M-token context)
+- **Zero config** — no model picker, no bring-your-own-key; ZYVA manages inference for you, and upgrades the model over time as stronger ones land
+
+---
+
+## Download (Desktop App)
+
+Prefer to keep everything local? Grab the desktop app from the **[releases page](https://github.com/titanxlayer/zyva-cloud/releases/latest)** — Windows, macOS, and Linux builds. The Cloud IDE at [app.zyva.dev](https://app.zyva.dev) needs no install.
+
+> Preview builds are unsigned, so your OS may warn on first launch.
 
 ---
 
