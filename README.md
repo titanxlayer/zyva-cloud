@@ -18,7 +18,7 @@
 
 ---
 
-![ZYVA IDE Screenshot](assets/screenshot.png)
+![ZYVA IDE Screenshot](assets/zyva-ide-claude.png)
 
 ---
 
